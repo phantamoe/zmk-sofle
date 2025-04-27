@@ -147,27 +147,27 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - ^
   - '{'
   - '}'
-  - F12
+  - {t: \, s: '|'}
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - {t: ;, s: ':'}
+  - .
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - _
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
