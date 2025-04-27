@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - _
+  - {t: '''', s: '"'}
   - $$mdi:keyboard-tab$$
   - A
   - S
