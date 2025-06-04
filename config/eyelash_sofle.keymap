@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp F11         &kp F1     &kp F2        &kp F3        &kp F4      &kp F5      &mmv MOVE_UP     &kp F6          &kp F7                &kp F8                 &kp F9     &kp F10        &kp BACKSPACE
-&kp F12         &kp GRAVE  &kp EQUAL     &kp COLON     &kp APOS    &kp AT      &mmv MOVE_DOWN   &kp CARET       &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans         &trans
-&kp TAB         &kp MINUS  &kp PLUS      &kp COMMA     &kp PERIOD  &kp HASH    &mmv MOVE_LEFT   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH  &kp BACKSLASH  &kp ENTER
-&kp LEFT_SHIFT  &trans     &trans        &trans        &trans      &trans      &mmv MOVE_RIGHT  &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans         &kp RSHIFT
-&trans          &trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE   &trans      &mkp LCLK        &trans          &kp SPACE             &kp RCTRL              &trans     &trans
+&kp F11         &kp F1     &kp F2        &kp F3        &kp F4      &kp F5      &mmv MOVE_UP     &kp F6          &kp F7                &kp F8                 &kp F9        &kp F10        &kp BACKSPACE
+&kp F12         &kp GRAVE  &kp EQUAL     &kp COLON     &kp APOS    &kp AT      &mmv MOVE_DOWN   &kp CARET       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &kp PIPE       &trans
+&kp TAB         &kp MINUS  &kp PLUS      &kp COMMA     &kp PERIOD  &kp HASH    &mmv MOVE_LEFT   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH     &kp BACKSLASH  &kp ENTER
+&kp LEFT_SHIFT  &trans     &trans        &trans        &trans      &trans      &mmv MOVE_RIGHT  &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans         &kp RSHIFT
+&trans          &trans     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE   &trans      &mkp LCLK        &trans          &kp SPACE             &kp RCTRL              &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
