@@ -15,10 +15,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - Q
+  - Q
   - W
   - E
   - R
-  - T
   - {t: '$$mdi:arrow-left-bold$$', h: '4'}
   - $$mdi:arrow-down-bold$$
   - Y
