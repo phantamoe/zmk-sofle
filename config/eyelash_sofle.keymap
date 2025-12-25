@@ -57,9 +57,9 @@
         layer_1 {
             bindings = <
 &kp F11         &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6        &kp F7         &kp F8             &kp F9           &kp F10    &kp BACKSPACE
-&kp F12         &trans           &out OUT_USB     &out OUT_BLE     &bt BT_CLR       &bt BT_CLR_ALL     &mmv MOVE_DOWN   &kp RC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP        &kp RC(RIGHT)    &trans     &trans
+&kp F12         &soft_off        &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &kp RC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP        &kp RC(RIGHT)    &trans     &kp PRINTSCREEN
 &kp TAB         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_LEFT   &kp LEFT      &kp DOWN       &kp UP_ARROW       &kp RIGHT        &kp HOME   &kp END
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans        &trans         &kp INSERT         &trans           &kp SLASH  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &mkp LCLK     &trans         &kp INSERT         &trans           &kp SLASH  &kp RIGHT_SHIFT
 &kp C_MUTE      &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp LALT         &kp SPACE        &trans             &mkp LCLK        &trans        &kp SPACE      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
             >;
 
@@ -81,11 +81,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &out OUT_USB  &out OUT_BLE  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
