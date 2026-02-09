@@ -90,11 +90,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &soft_off        &out OUT_USB     &out OUT_BLE     &bt BT_CLR       &bt BT_CLR_ALL     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &soft_off        &out OUT_USB     &out OUT_BLE     &bt BT_CLR       &bt BT_CLR_ALL     &trans  &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans  &trans  &trans  &trans  &trans
+&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPD  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans           &trans  &trans  &trans  &trans
             >;
         };
 
