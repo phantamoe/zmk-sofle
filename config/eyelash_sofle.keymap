@@ -38,6 +38,15 @@
     behaviors {
     };
 
+    macros {
+        select_line: select_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp END &kp LS(HOME)>;
+            label = "SELECT_LINE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,10 +65,10 @@
 
         layer_1 {
             bindings = <
-&kp F11         &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6        &kp F7               &kp F8                 &kp F9         &kp F10     &kp BACKSPACE
-&kp F12         &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp RC(LEFT)  &kp PAGE_DOWN        &kp PAGE_UP            &kp RC(RIGHT)  &kp INSERT  &kp PRINTSCREEN
-&kp TAB         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_LEFT   &kp LEFT      &kp DOWN             &kp UP_ARROW           &kp RIGHT      &kp HOME    &kp END
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans        &kp LS(LC(PAGE_UP))  &kp LS(LC(PAGE_DOWN))  &trans         &kp SLASH   &kp RIGHT_SHIFT
+&kp F11         &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &mmv MOVE_UP     &kp F6        &kp F7               &kp F8                 &kp F9         &kp F10          &kp BACKSPACE
+&kp F12         &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &kp RC(LEFT)  &kp PAGE_DOWN        &kp PAGE_UP            &kp RC(RIGHT)  &kp INSERT       &kp PRINTSCREEN
+&kp TAB         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_LEFT   &kp LEFT      &kp DOWN             &kp UP_ARROW           &kp RIGHT      &kp HOME         &kp END
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &select_line  &kp LS(LC(PAGE_UP))  &kp LS(LC(PAGE_DOWN))  &trans         &kt RIGHT_SHIFT  &trans
 &kp C_MUTE      &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans        &trans               &trans                 &trans         &trans
             >;
 
