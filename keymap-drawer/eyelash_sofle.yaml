@@ -240,9 +240,9 @@ layers:
   - RGB EFF
   - RGB BRI
   - RGB BRD
+  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
